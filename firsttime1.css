@@ -1,0 +1,694 @@
+		*:focus {
+    outline: none;
+}
+		#navbar {
+			position:absolute;
+			display:flex;
+			text-align: center;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:50px;
+			font-size: 23pt;
+			color:#c4c1c1;
+			background:#1D1D1D;
+			
+		}
+		#body {
+			width:1024px;
+			margin:0 auto;
+			background: url(5.jpg);                
+	        background-repeat:   no-repeat;
+	        background-size: fill;     
+
+		}
+
+		#searchnav {
+			width: 457px;
+			height:28px;
+		}
+		#srchicon {
+			position: absolute;
+			background-color: #e4e4e4;
+			border:0px;
+			border-left: 1px solid black;
+			border-radius: 1px 5px 5px 1px;
+			width: 50px;
+			height:27px;
+			left:540px;
+			top :10px;
+		}
+		#srchicon:hover{
+			background-color: #c1c1c1;
+		}
+		#srchbox {
+			width: 457px;
+			font-family: 'Lato';
+			font-weight: bold;
+			top :10px;
+			height:27px;
+			left:130px;
+			position: absolute;
+			border-radius: 5px;
+		}
+		#Home {
+		color : #FFFFFF;
+		position :absolute;
+		left: 10px;
+		font-size: 17pt;
+		top :10px;
+		padding-bottom: 5px;
+		padding-left:7px;
+		padding-right:7px;
+		font-family: 'Poiret One', cursive;
+		text-decoration: none;
+		}
+		#Home:hover{
+			text-decoration: none;
+			border-bottom: 4px solid #c1c1c1 ;
+		}
+		#separatorHM {
+			left: 16.6px;
+		}
+		#separatorFN {
+			left: 73.5px;
+			font-size: 1.7px;
+			top: 0.5px;
+		}
+		#Messages {
+			left : 17.3px;
+		}
+		#accountFN {
+		left:59px;
+		width: 14px;
+		text-align: right;
+		}
+		#accountP{
+			
+			width: 33px;
+			height: 33px;
+			border-radius: 50%;
+
+			object-fit: cover;
+		}
+		#Noti{
+			margin-bottom:3px;
+			width: 21px;
+			margin-right:3px;	
+		}
+		#msg{
+			margin-bottom:3px;
+			width: 22px;
+			margin-right:20px;	
+		}
+		#accountNotP{
+			
+			position: absolute;
+		    left: -16px;
+		    right: -100%;
+		    top: -100%;
+		    bottom: -100%;
+		    margin: auto; 
+		    height: 4px;
+		    width: 4px;
+		}
+		#submitFormBt {
+			position: absolute;
+			margin-top: 82px;
+			margin-left:-67px;
+			width: 60px;
+			font-size: 10pt;
+			display: inline;
+			border-radius: 3px;
+			background-color: #930e49;
+			font-family: Lato;
+			color: white;
+			border:0px solid grey;
+		}
+		#submitFormBt:hover {
+			background-color: #660831;
+		}
+		
+		#newPostBox {
+			display: block;
+			margin-top: 66px;
+			margin-left:280px;
+		}
+		#newPost {
+			width: 500px;
+			height:35px;
+			margin-top:8px;
+			border: 1px solid grey;
+			border-color: rgba(0,0,0,0.3);
+			font-family: 'Lato';
+			color:black;
+			font-size: 15px;
+			padding-top:5px;
+			padding-left:75px;
+			resize: none;
+		}
+		#newPostP {
+			width: 50px;
+			height: 50px;
+			object-fit: cover;
+			position: absolute;
+			margin-left:20px;
+			margin-bottom:100px;
+			border-radius: 50%;
+			box-shadow: 0.7px 0.7px 0.7px #181818;
+		}
+		#ImgPostBox {
+			width: 500px;
+			background-color: #FFFFFF;
+			margin-left:400px;
+			margin-top:27px;
+			border: 1px solid grey;
+			border-color: rgba(0,0,0,0.3);
+			font-family: 'Lato';
+			color:black;
+			font-size: 15px;
+			padding-top:5px;
+			padding-left:75px;
+			margin-bottom: 10px;
+		}
+		#ImgPost {
+			border: 1px solid grey;
+			padding-left: 5px;
+			padding-bottom: 18px;
+			margin-bottom: 2px;
+		}
+		#ImgPostP {
+			width: 50px;
+			height: 50px;
+			object-fit: cover;
+			position: absolute;
+			margin-left:-55px;
+			margin-top:-20px;
+			border-radius: 50%;
+			box-shadow: 0.7px 0.7px 0.7px #181818;
+
+		}
+		#ImgPostN {
+			font-family: 'Calibri light', sans-serif;
+			font-weight: bold;
+			font-size:15px;
+			color: #8f4d14;
+			display: inline;
+		}
+		table{
+			position: static;
+			text-align: left;
+		}
+		#ImgPostD {
+			display: inline;
+			color: grey;
+			font-family: 'Calibri', sans-serif;
+			font-size: 10px;
+		}
+		#ImgPosttxt {
+			font-family: 'Calibri light', sans-serif;
+			font-size:18px;
+			margin-left:-50px;
+			margin-top: 10px;
+
+		}
+		#ImgPostlikeComment {
+			top: 17.8px;
+			left: 1px;
+			width:27px;
+			border-top: 1px solid grey;
+		}
+		#ImgPostlikeComment span i {
+			color: black;
+			opacity: 0.5;
+		}
+		#ImgPostPP {
+			border: 1px solid #c9c9c9;
+			margin-top: 3px;
+			width :450px;
+			max-height: 600px;
+			object-fit: cover;
+			
+		}
+		#ImgPostPP:hover{
+			cursor: pointer;
+		}
+		#like{
+			margin-left:-45px;
+		}
+		#comment{
+			border:0px solid red;
+			width: 95%;	
+			margin-bottom:5px;
+			font-family: 'lato light';
+			text-align: left;
+			font-size: 10px;
+			color:black;
+		}
+		#line{
+			margin-left:-50px;
+			width:106%;
+			border-top:0.5px solid grey;
+			opacity: 1;
+			border-color:#8b8b8b;
+		}
+		.right{
+			width:1024px;
+			min-width: 1024px;
+			margin:0 auto;
+			position: relative;
+			object-fit: cover;
+
+		}
+		.cont{
+			background-color: #000000;	
+			
+			width:219px;
+			margin:0 auto;
+			color:black;
+			position: absolute;
+			top :70px;
+			border-radius:10px;
+			height:55px;
+		}
+		.anoun{
+			background-color: #ececec;
+			width:225px;
+			max-width: 1024px;
+			margin:0 auto;
+			color:black;
+			position: absolute;
+			top :70px;
+			right:2px;
+			border:0px solid black;
+			border-radius:10px;
+		}
+		#an{
+			font-family:'lato'; 
+			text-align: left;
+			margin-top:4px;
+			margin-bottom: 4px;
+			margin-left:7px;
+			font-size: 18px;
+			color: #c30c0c;
+		}
+		#para{
+			font-family:'lato'; 
+			font-size: 14px;
+			text-align: left;
+			margin-left:7px;
+			margin-bottom: 4px;
+			color: #181818;
+		}
+		#cover{
+			opacity: 0.35;
+			border:1px solid grey;
+			width:219px;
+			height:55px;
+			object-fit: cover;
+			border-radius:10px;	
+		}
+		#namebox{
+			font-family:'lato light'; 
+			font-size: 15.7px;
+			position: absolute;
+			color:white;
+			left:32%;
+			top:-3%;
+		}
+		#namebox:hover{
+			text-decoration: underline;
+		}
+		#pbox{
+			position: absolute;
+			width:35px;
+			height:35px;
+			object-fit: cover;
+			left:8%;
+			top:16%;
+			border-radius: 50%;
+			border:0px solid white;
+	
+		}
+		.course{
+			background-color:#ececec;
+			width:219px;
+			margin:0 auto;
+			color:black;
+			position: absolute;
+			top :140px;
+			border:0px solid grey;
+			border-radius:10px;
+		}
+		#faculty{
+
+			font-family:'lato'; 
+			font-weight: bold;
+			font-style: italic;
+			font-size: 12px;
+			margin-top:0.8%;
+			margin-left:10%;
+		}
+		#pgrad{
+			position: absolute;
+			width:27px;
+			height:27px;
+			object-fit: cover;
+			margin-left: -47.5%;	
+			margin-top:-1.5%;
+		}
+		#courses{
+			font-family:'lato'; 
+			margin-bottom: 10px;
+			font-size: 10px;
+			margin-left:4%;
+			text-align: left;
+		}
+		a , a:hover, a:active , a:visited ,a:link
+		{
+			color: black;
+			font-family: 'Lato', sans-serif;
+			text-decoration: none;
+		}
+		.shortcut{
+			background-color:transparent;
+			width:219px;
+			margin:0 auto;
+			color:black;
+			position: absolute;
+			top :275px;
+			border:0px solid grey;
+
+		}
+		#li{
+			width:100%;
+			border: 0px solid red;
+			background: transparent;
+			margin-top:6px;
+		}
+		#li:hover{
+			text-decoration: underline;
+			
+		}
+		#short{
+			
+			font-size: 14px;
+			text-align: left;
+			margin-left:3%;
+		}
+		
+		#shortc{
+
+			font-family:'lato light'; 
+			font-weight: bold; 
+			font-size: 15px;
+			text-align: left;
+			margin-top:3.5%;
+			margin-bottom: 4%;
+			margin-left:14.5%;
+		}
+		#icon{
+
+			position: absolute;
+			width:32px;
+			height:32px;
+			object-fit: cover;	
+			margin-left:-47.5%;
+
+		}
+		#bor{
+			background-color: #dfdfdf;
+			position: absolute;
+			width:498px;
+			height:28.5px;
+			object-fit: cover;	
+			left:25.7%;
+			margin-top:13.1%;
+		}
+		#camera {
+			border: 0px;
+			background: transparent;
+			position: absolute;
+			width: 23px;	
+			margin-top: 42px;
+			margin-left:-240px;
+
+		}
+		#camera:hover {
+			opacity:0.8;
+		}
+	#slideshow > div {
+  position: absolute;
+  border-radius: 10px;
+  top: 80px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+	}
+	
+	.pcover{
+		width:100%;
+		height:246px;
+		object-fit: cover;
+		object-position: 50% 30%;
+		
+		opacity: 0.5;
+		-moz-transition: all 1s;
+ 		-webkit-transition: all 1s;
+  		transition: all 1s;
+	}
+	.pcover:hover{
+		cursor: pointer;
+	
+	}
+	#ov{
+		width:100%;
+		height:245px;
+		margin-top:50px;
+		background-color: #181818;
+		clip-path: ellipse(60% 100% at 50% 0%);
+		-moz-transition: all 0.3s;
+ 		-webkit-transition: all 0.3s;
+  		transition: all 0.3s;
+		
+	}
+	#ov:hover{
+		cursor: pointer;
+	}
+	#profP{
+	border-radius: 50%;
+	object-fit : cover;
+	height: 140px;
+	width: 140px;
+	margin-top:-7%;
+	position: absolute;
+	left:43%;
+	-moz-transition: all 0.3s;
+ 	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+	}
+	#profP:hover{
+	transform: scale(1.1);
+	cursor: pointer;	
+	}
+	#profilename{
+		font-family:'Lato';
+		font-size:25pt;
+		margin-top:3%;
+		color:#414141;
+	}
+	#bio{
+		font-family:'Lato';
+		font-size:12.5pt;
+		color:#767676;
+		margin-left:30.5%;
+		width:40%;
+	}
+	#bio:hover{
+
+		background-color: rgba(0,0,0,0.05);
+		cursor: pointer;
+	}
+	#profline{
+		width:35%;
+		margin-top:10px;
+		border-color:#8b8b8b;
+	}
+	#proflinerecent{
+		width:95%;
+		margin-top:-5px;
+		border-color:#a1a1a1;
+	}
+	.shortcutp{
+			background-color:#FFFFFF;
+			width:250px;
+			margin:0 auto;
+			color:black;
+			margin-left:140px;
+			position: absolute;
+			top:489px;
+			border: 1px solid grey;
+			border-color: rgba(0,0,0,0.3);
+			border-radius: 8px;
+		}
+		.recent{
+			background-color:#FFFFFF;
+			width:250px;
+			margin:0 auto;
+			color:black;
+			margin-left:140px;
+			position: absolute;
+			top:700px;
+			border: 1px solid grey;
+			border-color: rgba(0,0,0,0.3);
+			border-radius: 8px;
+		}
+		#recentabout{
+			font-family:'lato light'; 
+			font-weight: bold; 
+			font-size: 20px;
+			text-align: left;
+			margin-left:3%;
+		}
+		#iconrecent{
+			position: absolute;
+			width:15px;	
+			margin-left:-45.5%;
+			margin-top:-8px;
+		}
+		#iconrecent2{
+			position: absolute;
+			width:23px;	
+			margin-left:-47.5%;
+			margin-top:-8px;
+		}
+		#iconrecent3{
+			position: absolute;
+			width:30px;	
+			margin-left:-49%;
+			margin-top:-5px;
+		}
+		#recenttext{
+			font-family: 'Lato';
+			font-size:13px;
+			text-align: left;
+			margin-top:-6px;
+			margin-bottom:20px;
+			margin-left:32px;
+		}
+		#follow{
+			border:0px solid black;
+			background: #393939;
+			color:white;
+			font-size:17px;
+			border-radius: 10px;
+			font-family: 'Lato';
+			padding-left:20px;
+			padding-right:20px;
+			margin-left:240px;
+			margin-bottom: 0px;
+			bottom: 0px; 
+			-webkit-transition-duration: 0.4s; /* Safari */
+    		transition-duration: 0.4s;
+		}
+		#follow:hover{
+			background-color: #636363;
+		}
+		#follow:active {
+		  background-color: #004e77;
+		}
+
+		#newform{
+			background-color:rgba(255,255,255,0);
+			width:750px;
+			margin:0 auto;
+			color:black;
+			margin-left:140px;
+			position: absolute;
+			margin-top:20px;
+			border: 1px solid grey;
+			border-color: rgba(0,0,0,0.3);
+			border-radius: 8px;
+		}
+		#welcome{
+			margin-top:38%;
+			font-family: 'Lato';
+			color:#FFFFFF;
+			font-size:35px;
+		}
+		#field{
+	    border: none;
+	    border-bottom: 2px solid grey;
+	    font-family: 'Lato';
+	    font-weight: bold;
+	    background-color: transparent;
+	    color:white;
+	    font-size: 18px;
+	    padding: 5px;
+	    width: 380px;
+	    margin-bottom: 3px;
+	    margin-top: 3px;
+	    outline: none;
+		}
+		#field:focus {
+    		border-bottom: 2px solid white;
+		}
+		#field:hover {
+		    border-bottom: 2px solid white;
+		}
+
+		#fileToUpload{
+			display: inline;
+			border:none;
+			font-size: 14px;
+			font-family:'Lato';
+			color:grey;
+		}
+		#blah{
+			object-fit: cover;
+			width:100px;
+			height:100px;
+			border:1px solid grey;
+		
+		}
+		#blah2{
+			object-fit: cover;
+			width:100px;
+			height:60px;
+		}
+		#txt{
+			font-family: 'Lato';
+			font-size:14px;
+			color:rgba(255,255,255,0.8);
+		}
+		#facu{
+		font-size: 18px;
+		width: 380px;
+		font-family: 'Lato';
+		background: transparent;
+		color:grey;
+		border:0px;
+		border-bottom: 1px solid grey;
+		}
+		#facu:hover{
+			border-bottom:2px solid white;
+		}
+		.btnLogin{
+			
+		    background-color: #323232; 
+		    border-radius: 5px;
+		    border:0.1vw #181818;
+		    cursor: pointer;
+		    font-family: 'Lato';
+		    font-size:15px;
+		    color:white;
+		    text-align: center;
+		    padding:10px;
+		    margin-bottom:10px;
+		    -webkit-transition: all 0.5s;
+  		transition: all 0.5s;
+		}
+		.btnLogin:hover
+		{
+			background-color: #181818;
+		}
